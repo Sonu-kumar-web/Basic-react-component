@@ -6,7 +6,7 @@ class Left extends Component {
 
    handleOnChange = (e) => {
       //   console.log("Checked", e.target.name);
-      const { isChecked, head, val } = this.state;
+      const { head, val } = this.state;
       if (head === "") {
          this.setState({ head: e.target.name });
       }
