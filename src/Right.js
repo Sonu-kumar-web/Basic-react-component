@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Right extends Component {
    render() {
       console.log("Right", this.props.state);
-      const { isChecked, head, val } = this.props.state;
+      const { head, val } = this.props.state;
       return (
          <div className="right">
             <div className="left-detail">

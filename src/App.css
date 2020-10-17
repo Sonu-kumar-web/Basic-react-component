@@ -66,13 +66,12 @@
 .left-detail input {
    margin-right: 3%;
 }
-.right-detail {
+
+.right-detail label {
+   padding: 8px;
+   cursor: pointer;
    background-color: rgb(219, 216, 216);
    width: 80%;
-   height: 30px;
+   height: 25px;
    border-radius: 5px;
-}
-.right-detail label {
-   padding: 5px;
-   cursor: pointer;
 }
