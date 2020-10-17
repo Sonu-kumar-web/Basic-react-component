@@ -8,9 +8,11 @@ class Right extends Component {
          <div className="right">
             <div className="left-detail">
                <h4>{head}</h4>
-               {val.map((value, index) => (
-                  <label key={index}>{value}</label>
-               ))}
+               <div className="right-detail">
+                  {val.map((value, index) => (
+                     <label key={index}>{value}</label>
+                  ))}
+               </div>
             </div>
          </div>
       );
