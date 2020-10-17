@@ -1,2 +1,2 @@
-# Basic-react-component (Assignment given by Spark18)
+# UI using React (Assignment given by Spark18)
 
